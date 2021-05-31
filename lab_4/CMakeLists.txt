@@ -3,4 +3,4 @@ project(statistics C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(statistics main.c sort.c sort.h)
+add_executable(statistics lib/main.c sort.c sort.h)

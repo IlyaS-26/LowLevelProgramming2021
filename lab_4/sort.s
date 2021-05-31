@@ -39,7 +39,7 @@ sort:
 .L2:
 	slli	a5,a2,2
 	add	a0,a0,a5
-	lw	a0,0(a0)
+	lw	a0,-4(a0)
 	ret
 	.size	sort, .-sort
 	.ident	"GCC: (SiFive GCC-Metal 10.2.0-2020.12.8) 10.2.0"

@@ -12,5 +12,5 @@ int sort(int array[], int size, int k) {
         }
         array[j + 1] = temp;
     }
-    return array[k];
+    return array[k-1];
 }

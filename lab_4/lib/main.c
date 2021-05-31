@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "sort.h"
+#include "../sort.h"
 
 int main() {
-    int k = 2;
+    int k = 4;
     /* 1  5  6  9  15 */
     int array[] = {15, 6, 9, 1, 5};
     int size = sizeof(array) / sizeof(int);

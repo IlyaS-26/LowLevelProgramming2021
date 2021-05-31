@@ -42,7 +42,7 @@ main:
 	bne	s1,s2,.L2
 	li	a0,10
 	call	putchar
-	li	a2,2
+	li	a2,4
 	li	a1,5
 	addi	a0,sp,8
 	call	sort
@@ -53,7 +53,7 @@ main:
 	call	printf
 	addi	s0,s0,4
 	bne	s0,s2,.L3
-	li	a2,2
+	li	a2,4
 	li	a1,5
 	addi	a0,sp,8
 	call	sort

@@ -1276,7 +1276,7 @@ int sort(int array[], int size, int k);
 # 3 "main.c" 2
 
 int main() {
-    int k = 2;
+    int k = 4;
 
     int array[] = {15, 6, 9, 1, 5};
     int size = sizeof(array) / sizeof(int);
